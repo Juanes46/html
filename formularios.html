@@ -1,0 +1,125 @@
+<!DOCTYPE <html>
+<html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>Inicio</title>
+        </head>
+        <body>
+            <h1>Formulario</h1>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Informacion general</legend>
+                    <div>
+                        <label for="">Nombres:</label>
+                        <input type="text" 
+                        name="nombre" 
+                        placeholder="Ingrese su nombre completo "
+                        maxlength="60"
+                        value="Pepeito"
+                        required>
+                        <label for="">Apellido:</label>
+                        <input type="text" 
+                        name="nombre" 
+                        placeholder="Ingrese su nombre completo "
+                        maxlength="60"
+                        value="Pepeito"
+                        required>
+                    </div>
+                    <div>
+                        <label for=""><br>Contraseña</label>                      
+                        <input type="password" name="pwd">
+                    </div>
+                    <div>
+                        <label for=""><br>Email</label>
+                        <input type="mail" name="correo">
+                    </div>
+                    <div>
+                        <label for=""><br>Edad</label>
+                        <input type="number" 
+                        name="edad" 
+                        value="18" 
+                        min="14" 
+                        max="120">
+                    </div>
+                    <div>
+                        <label for=""><br>Fecha de Cumpleaños</label>
+                        <input type="date" name="Cumpleanios"> <br>
+                        <input type="datetime" name="CumpleaniosDos">
+                        <input type="datetime-local" name="CumpleaniosTres"> 
+                    </div>
+                    <div>
+                        <label for="">Color Favorita</label>
+                        <input type="color" name="Color Favorito">
+                    </div>
+                    <div>
+                        <label for="">Archivo</label>
+                        <input type="file" name="archivo" multiple accept=".pdf">
+                    </div>
+                    <div>
+                        <label for="">Hora</label>
+                        <input type="time" name="hora">
+                    </div>
+                    <div>
+                        <label for="">Mes</label>
+                        <input type="month" nam="Mes">
+                    </div>
+                    <div>
+                        <label for="">Semana</label>
+                        <input type="week" name="semana">
+                    </div>
+                    <div>
+                        <label for="">Categoria:</label>
+                        <label>
+                            <input type="radio" name="Categoria" value="A">
+                            Categoria A
+                        </label>
+                        <label>
+                            <input type="radio" name="Categoria" value="B" checked>
+                            Categoria B
+                        </label>
+                        <label>
+                            <input type="radio" name="Categoria" value="C">
+                            Categoria C
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">Pasatiempos</label>
+                        <div>
+                                <input type="checkbox" name="PasatiemposA" value="A">
+                                OPcion 1 
+                            </label>
+                            <label>
+                                <input type="checkbox" name="PasatiemposB" value="A">
+                                OPcion 2
+                            </label>
+                            <label>
+                                <input type="checkbox" name="PasatiemposC" value="A">
+                                OPcion 3
+                            </label>
+                    </div>
+                    <div>
+                        <label for="">Ciudad:</label>
+                        <select name="ciudad">
+                            <option value="1">Tunja</option>
+                            <option value="2" selected>Duitama</option>
+                            <option value="3">Sogamoso</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Descripcion:</label>
+                        <textarea name="desc" cols="12" rows="6"></textarea>
+                    </div>
+                    <div>
+                        <input type="button" value="Boton">
+                        <input type="reset" value="Borrar">
+                        <input type="submit" value="Enviar">
+                        <br>
+                        <button type="button">Boton</button>
+                        <button type="reset">Borrar</button>
+                        <button type="sumbit">Enviar</button>
+
+                    </div>s
+                </fieldset>
+            </form>
+        </body>
+</html>
